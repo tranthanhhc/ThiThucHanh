@@ -1,0 +1,22 @@
+<!-- item_food.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/foodImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/bread" />
+
+    <TextView
+        android:id="@+id/foodNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Bread"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp" />
+
+</LinearLayout>
